@@ -14,6 +14,7 @@
 		E6D532B01D23A30F00671C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D532AF1D23A30F00671C79 /* Assets.xcassets */; };
 		E6D532B31D23A30F00671C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D532B11D23A30F00671C79 /* LaunchScreen.storyboard */; };
 		E6D532BE1D23A30F00671C79 /* PKCS5PaddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D532BD1D23A30F00671C79 /* PKCS5PaddingTests.m */; };
+		E6D532CA1D23A42E00671C79 /* AESEncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D532C91D23A42E00671C79 /* AESEncryptUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E6D532B91D23A30F00671C79 /* PKCS5PaddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKCS5PaddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D532BD1D23A30F00671C79 /* PKCS5PaddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKCS5PaddingTests.m; sourceTree = "<group>"; };
 		E6D532BF1D23A30F00671C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D532C81D23A42E00671C79 /* AESEncryptUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESEncryptUtil.h; sourceTree = "<group>"; };
+		E6D532C91D23A42E00671C79 /* AESEncryptUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESEncryptUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				E6D532A71D23A30F00671C79 /* AppDelegate.m */,
 				E6D532A91D23A30F00671C79 /* ViewController.h */,
 				E6D532AA1D23A30F00671C79 /* ViewController.m */,
+				E6D532C81D23A42E00671C79 /* AESEncryptUtil.h */,
+				E6D532C91D23A42E00671C79 /* AESEncryptUtil.m */,
 				E6D532AC1D23A30F00671C79 /* Main.storyboard */,
 				E6D532AF1D23A30F00671C79 /* Assets.xcassets */,
 				E6D532B11D23A30F00671C79 /* LaunchScreen.storyboard */,
@@ -214,6 +219,7 @@
 				E6D532AB1D23A30F00671C79 /* ViewController.m in Sources */,
 				E6D532A81D23A30F00671C79 /* AppDelegate.m in Sources */,
 				E6D532A51D23A30F00671C79 /* main.m in Sources */,
+				E6D532CA1D23A42E00671C79 /* AESEncryptUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
